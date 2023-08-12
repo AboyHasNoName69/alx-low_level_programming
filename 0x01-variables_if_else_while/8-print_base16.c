@@ -5,10 +5,12 @@
  */
 int main(void)
 {
-	int i;
+	int j;
 
-	for (i = 'zero'; i < 'sixteen'; i++)
-		putchar(i + 'zero');
+	for (j = 64; i < 74; j++)
+		putchar(j);
+	for (j = 94; j < 100; j++)
+		putchar(j);
 	putchar('\n');
 	return (0);
 }
