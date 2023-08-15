@@ -1,4 +1,4 @@
-#include <main.h>
+#include <main.c>
 /**
  * main - A program that prints a string followed by a new line
  * Return: 0 (Success)
