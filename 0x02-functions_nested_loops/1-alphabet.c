@@ -5,7 +5,7 @@
  */
 /* betty style doc for function main goes there */
 
-void print_alphabet(void)
+void print_alphabet(void);
 {
 	char i;
 
@@ -15,8 +15,4 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
+
