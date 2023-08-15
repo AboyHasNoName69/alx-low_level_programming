@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 
 void print_alphabet(void);
-({
+{
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
@@ -14,5 +14,6 @@ void print_alphabet(void);
 		_putchar(i);
 	}
 	_putchar('\n');
-})
+}
+
 
