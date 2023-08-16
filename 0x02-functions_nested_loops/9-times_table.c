@@ -5,6 +5,7 @@
  *
  * Return: 0 (Success)
  */
+
 void times_table(void)
 {
 	int i;
@@ -20,12 +21,12 @@ void times_table(void)
 	k = i * j;
 	if (k > 9)
 	{
-	 l = k % 10;
-	 m = (k - l) / 10;
-	 _putchar(44);
-	 _putchar(32);
-	 _putchar(m + '0');
-	 _putchar(l + '0');
+		l = k % 10;
+		m = (k - l) / 10;
+		_putchar(44);
+	 	_putchar(32);
+	 	_putchar(m + '0');
+		_putchar(l + '0');
 	}
 	else
 	{
