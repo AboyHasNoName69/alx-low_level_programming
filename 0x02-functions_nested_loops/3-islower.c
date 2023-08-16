@@ -2,11 +2,11 @@
 
 /**
  * _islower - is a function that checks if a character is lowercase.
- * c: is the character to be checked.
+ * @c: is the character to be checked.
  *
  * Return: 1 if character is lower case, 0 otherwise.
  */
-int _islower(void)
+int _islower(int c)
 {
 	int c = 'c';
 
