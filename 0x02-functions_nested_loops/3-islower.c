@@ -6,7 +6,7 @@
  *
  * Return: 1 if character is lower case, 0 otherwise.
  */
-int _islower(int c)
+int _islower(void)
 {
 	int c = 'c';
 
