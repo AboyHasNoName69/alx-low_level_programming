@@ -1,18 +1,17 @@
 #include "main.h"
 /**
- * main - A program that prints alphabets in lower case followed by a new line
- *Return: 0 (Success)
+ * print_alphabet - print all alphabets in lower case
  */
-/* betty style doc for function main goes there */
-
 void print_alphabet(void)
 {
-	char i;
+	char letter = 'a';
 
-	for (i = 'a'; i <= 'z'; i++)
+	while (letter <= 'z')
 	{
-		_putchar(i);
+		_putchar(letter);
+		letter++;
 	}
+
 	_putchar('\n');
 }
 
