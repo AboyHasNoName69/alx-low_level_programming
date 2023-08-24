@@ -4,7 +4,7 @@
 /**
 * print_buffer - function that rints a buffer 10 bytes at a time, starting with
 * the byte position, then showing the hexadecimal content, then displays
-* printable characters.
+* the printable characters.
 * @b: The buffer to be printed.
 * @size: The number of bytes to be printed from the buffer.
 *
