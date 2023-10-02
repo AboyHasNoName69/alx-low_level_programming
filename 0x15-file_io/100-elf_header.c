@@ -1,6 +1,6 @@
 /*
 * File: 100-elf_header.c
-* Auth: Suara Ayomide
+* Auth: Bingham John
 */
 
 #include <elf.h>
@@ -315,4 +315,3 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	close_elf(o);
 	return (0);
 }
-
